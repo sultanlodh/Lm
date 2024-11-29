@@ -7,22 +7,7 @@ config = {
         "enable.auto.commit": False
     },
 
-    "dest_Connections": {
-        'host': '10.10.25.46',
-        'user': 'foc_user',
-        'password': 'Foc_user@#4321',
-        'database': 'foc_db',
-        'port': 3306
-    },
-
-     "source_connection": {
-        'host': '10.10.25.130',
-        'user': 'log_stream',
-        'password': '10g236!shdhjaF',
-        'database': 'tracking_live',
-        'port': 3307
-    },
-
+    
     "producer_settings": {
         "bootstrap.servers": 'localhost:9092'  # Same as consumer settings
     },
